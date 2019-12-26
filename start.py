@@ -10,16 +10,16 @@ rusAl = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
 # Ещё что-то придумаю
 
 # Место для функций
-transText = ''
+transText = 'None'
 
-digitText = ''
+digitText = 'None'
 
-binaryText = ''
+binaryText = 'None'
 
 # Итоговый вывод
 print(f'Оригинальная строка: {origin}')
-print(f'')
-print(f'')
-print(f'')
+print(f'Транслит: {transText}')
+print(f'Позиции букв в алфавите: {digitText}')
+print(f'Бинарное представление: {binaryText}')
 print(f'')
 input('Нажмите Enter для завершения ...')
